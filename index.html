@@ -1,0 +1,195 @@
+<!-- advait-institute.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advait Institute</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #8a2020, #1f77b6);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #080000;
+    }
+
+    .logo {
+      width: 120px;
+      margin: 0 auto 1rem;
+      display: block;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #0d47a1;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      width: 300px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2, .card h4 {
+      color: #1976d2;
+      margin-bottom: 1rem;
+    }
+
+    .card ul {
+      list-style: none;
+    }
+
+    .card ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .faculty-section {
+      background-color: #f1f8ff;
+      padding: 2rem 1rem;
+    }
+
+    .faculty-section h3 {
+      text-align: center;
+      color: #0d47a1;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .faculty-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .contact {
+      text-align: center;
+      background-color: #bbdefb;
+      padding: 2rem;
+      border-radius: 1rem;
+      margin: 2rem auto;
+      max-width: 600px;
+    }
+
+    .contact h3 {
+      color: #0d47a1;
+      margin-bottom: 1rem;
+    }
+
+    .contact p {
+      margin-bottom: 1rem;
+    }
+
+    .contact button {
+      background-color: #1976d2;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image.png" alt="Advait Institute Logo" class="logo">
+    <h1>Advait Institute</h1>
+    <p>Quality Education for IIT-JEE, NEET & NDA Preparation</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>✅ Competitive Exam Focus</li>
+        <li>✅ Experienced Faculty</li>
+        <li>✅ Concept Clarity & Tricks</li>
+        <li>✅ Classroom Teaching at Bhiwadi</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Courses Offered</h2>
+      <ul>
+        <li>✔️ IIT-JEE (Mains + Advanced)</li>
+        <li>✔️ NEET (Medical Entrance)</li>
+        <li>✔️ NDA (National Defence Academy)</li>
+        <li>✔️ Foundation Classes (9th to 12th)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="faculty-section">
+    <h3>Our Faculty</h3>
+    <div class="faculty-cards">
+      <div class="card">
+        <h4>🧑‍🏫 Abhinav Mishra</h4>
+        <p>Inspire Alumnus from DST<br />MSc Physics<br />5+ years of experience</p>
+      </div>
+      <div class="card">
+        <h4>🧑‍🏫 Abhishek Mishra</h4>
+        <p>IIT-JAM Qualified<br />MSc Chemistry<br />6+ years of experience</p>
+      </div>
+      <div class="card">
+        <h4>🧑‍🏫 Sunil Gupta</h4>
+        <p>Gold Medalist<br />MSc Mathematics<br />7+ years of experience</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h3>Contact Us</h3>
+    <p>
+      📍 Alwar Bypass Road, Bhiwadi <br />
+      📞 9549102575 <br />
+    </p>
+    <button onclick="window.location.href='tel:9549102575'">Call Now</button>
+  </div>
+
+  <footer>
+    &copy; 2025 Advait Institute. All rights reserved.
+  </footer>
+</body>
+</html>
